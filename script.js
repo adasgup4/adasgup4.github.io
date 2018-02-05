@@ -1,0 +1,1 @@
+alert('Random Javascript, updated!');
