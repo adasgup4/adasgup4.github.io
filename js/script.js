@@ -36,7 +36,7 @@
    *
    ****************************************************************************/
 
-  
+
 
   if (app.isLoading) {
     app.spinner.setAttribute('hidden', true);
@@ -48,3 +48,11 @@
 
   // TODO add service worker code here
 })();
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}

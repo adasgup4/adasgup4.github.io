@@ -2,11 +2,48 @@
 <html>
 <head>
 	<title>Abhideep Dasgupta</title>
-	<link rel="stylesheet" href="style.css">
-	<script type="text/Javascript" src="script.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/Javascript" src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 <body>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+	
+	<!--<ul id="slide-out" class="side-nav">
+    <li>
+    	<div class="user-view">
+		    <div class="background">																/// COMMENT FROM HERE
+		    	<img src="images/office.jpg">
+		    </div>-->
+		    <!--<a href="#!user"><img class="circle" src="images/yuna.jpg"></a>						/// COMMENT UNTIL HERE
+		    <a href="#!name"><span class="white-text name">Abhideep Dasgupta</span></a>
+		    <a href="#!email"><span class="white-text email">abhideep.dasgupta@gmail.com</span></a>
+	    </div>
+	</li>
+    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+    <li><a href="#!">Second Link</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Subheader</a></li>
+    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+  	</ul>-->
+  	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="/index.html">About Me</a>
+		<a href="/resume.html">Resume</a>
+		<a href="/experiences.html">Experiences</a>
+		<a href="/projects.html">Projects</a>
+		<a href="/coursework.html">Coursework</a>
+		<a href="/contact.html">Contact</a>
+	</div>
+
 	<header class="header">
+		<!--<button id="butNav" class=headerButton aria-label="Menu" onclick="openNav()"></button>-->
+		<button class="headerButton" style="cursor:pointer" id="butNav" onclick="openNav()"></button>
+		<a href="#" data-activates="slide-out" class="headerButton button-collapse"><i class="material-icons">menu</i></a>
 		<h1 class="header_title">Abhideep Dasgupta</h1>
 		<button id="butCall" class="headerButton" aria-label="Call"></button>
 		<button id="butEmail" class="headerButton" aria-label="Email"></button>
